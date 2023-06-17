@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: flex;
+    min-height: 100%;
+    flex-wrap: wrap;
+    flex-flow: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid lightslategray;
+}
+
+h1 {
+    font-size: 5rem;
+    text-shadow: 0.2rem 0.2rem #808080;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid lightslategray;
+    display: inline;
+}
+
+h2 {
+    padding: 3rem;
+    display: block;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    height: max-content;
+    flex-basis: 100%;
+    height: 100%;
+    height: 5rem;
+    font-size: 2rem;
+    padding-top: 6rem;
+}
+
+section {
+    flex-basis: 100%;
+    float: left;
+}
+
+header {
+    padding-bottom: 4rem;
+    flex-basis: 100%;
+    float: left;
+}
+
+header img {
+    width: 10rem;
+    padding: 3rem;
+}
+
+.aboutme {
+    padding-bottom: 4rem;
+    padding-top: 4rem
+}
+
+.contact {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
