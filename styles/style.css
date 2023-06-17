@@ -14,15 +14,11 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
-    border-bottom: 1px solid lightslategray;
 }
 
 h1 {
     font-size: 5rem;
-    text-shadow: 0.2rem 0.2rem #808080;
     padding-bottom: 4rem;
-    border-bottom: 1px solid lightslategray;
     display: inline;
 }
 
@@ -57,7 +53,9 @@ header {
 
 header img {
     width: 10rem;
-    padding: 3rem;
+    padding: 0;
+    margin: 2.6rem;
+    border-radius: 100%;
 }
 
 .aboutme {
@@ -68,4 +66,48 @@ header img {
 .contact {
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+
+    a {
+        border-bottom: 1px solid #808080;
+        color: #000000;
+    }
+
+    h1 {
+        text-shadow: 0.2rem 0.2rem #808080;
+        border-bottom: 1px solid #808080;
+    }
+
+    header img {
+        border: 0.5rem solid #808080;
+        background-color: #808080;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    a {
+        border-bottom: 1px solid #FFFFFF;
+        color: #FFFFFF;
+    }
+
+    h1 {
+        text-shadow: 0.2rem 0.2rem #808080;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    header img {
+        border: 0.5rem solid #FFFFFF;
+        background-color: #FFFFFF;
+    }
 }
